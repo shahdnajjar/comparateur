@@ -13,9 +13,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-title{
-    text-align: center;
-}
+
 header {
     align-items: center;
     padding: 20px;
@@ -29,9 +27,8 @@ input {
     font-size: 16px;
   }
 
-  /* Style spécifique pour un input de type texte */
   input[type="number"] {
-    width: 400px; /* Largeur spécifique */
+    width: 400px;
   }
 
 .titre {
@@ -83,11 +80,11 @@ p {
 }
 
 .sections {
-    display: flex; /* Removed unnecessary property */
+    display: flex;
 }
 
 .section {
-    flex: 1; /* Makes sections take up equal space */
+    flex: 1; 
     text-align: center;
     padding: 20px;
 }
@@ -118,7 +115,7 @@ img{
 
 .comparaisons-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Trois colonnes égales */
+    grid-template-columns: repeat(3, 1fr); 
     gap: 20px;
 }
 
