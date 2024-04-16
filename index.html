@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Équivalent CO2</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="titre">
+        <h1>Équivalent CO2</h1>
+      </div>
+    </header>
+
+    <main>
+      <section class="valeur-co2">
+        <p>C'est autant d'émissions que pour fabriquer, consommer ou parcourir...</p>
+
+        <div class="valeur">
+          <input type="number" id="co2Input" placeholder="Entrez votre valeur CO2 (kg)">
+        </div>
+      </section>
+
+      <section class="comparaisons">
+        <div class="comparaisons-grid">
+          <div class="comparaison">
+            <img src="bus.png" alt="Bus">
+            <br>
+            <span id="busComparison">= 0 équivalents bus (moteur thermique)</span> <a href="#" class="bouton">Comparer</a>
+          </div>
+          <div class="comparaison">
+            <img src="pc.png" alt="Ordinateur portable"><br>
+            <span id="laptopComparison">= 0 équivalents ordinateur portable</span> <a href="#" class="bouton">Comparer</a>
+          </div>
+          <div class="comparaison">
+            <img src="salade.png" alt="Repas végétaliens">
+            <br>
+            <span id="mealsComparison">= 0 équivalents repas végétaliens</span> <a href="#" class="bouton">Comparer</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+      <div class="sections">
+        <div class="section">
+          <h2>Comparer</h2>
+          <p>Comparer votre empreinte carbone à d'autres activités.</p>
+          <a href="#" class="bouton">Comparer</a>
+        </div>
+        <div class="section">
+          <h2>Générer d'autres équivalents</h2>
+          <p>Découvrez l'impact CO2 d'autres actions quotidiennes.</p>
+          <a href="#" class="bouton">Générer</a>
+        </div>
+      </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

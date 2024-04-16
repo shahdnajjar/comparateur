@@ -1,0 +1,142 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+title{
+    text-align: center;
+}
+header {
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  /* Style spécifique pour un input de type texte */
+  input[type="number"] {
+    width: 400px; /* Largeur spécifique */
+  }
+
+.titre {
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.valeur-co2 {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.valeur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+}
+
+.unite {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.ajouter {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sections {
+    display: flex; /* Removed unnecessary property */
+}
+
+.section {
+    flex: 1; /* Makes sections take up equal space */
+    text-align: center;
+    padding: 20px;
+}
+
+.section h2 {
+    margin-bottom: 10px;
+}
+
+.bouton {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+img{
+    text-align: center;
+    size: 10px;
+}
+.comparaisons {
+    padding: 10px;
+    padding-top: 50px;
+
+}
+
+.comparaisons-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Trois colonnes égales */
+    gap: 20px;
+}
+
+.comparaison {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.comparaison img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.texte {
+    font-size: 16px;
+    color: #333;
+}
